@@ -1,7 +1,5 @@
 **Generative AI RAG Chatbot with ChromaDB and Azure OpenAI**
 
-Here's the info that reflects the current setup and provides clear instructions for anyone who wants to run your chatbot using main.py. It includes information on installation, execution, and what each part of the project does.
-
 This project implements a Retrieval-Augmented Generation (RAG) chatbot using ChromaDB for embedding storage and Azure OpenAI GPT for generating responses. The chatbot extracts information from PDFs, generates embeddings, stores them in ChromaDB, and retrieves relevant information to answer user queries.
 
 **Project Structure**
