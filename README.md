@@ -1,4 +1,4 @@
-Here’s a detailed README.md file for your project that reflects the current setup and provides clear instructions for anyone who wants to run your chatbot using main.py. It includes information on installation, execution, and what each part of the project does.
+Here’s a detailed README.md file for this project that reflects the current setup and provides clear instructions for anyone who wants to run your chatbot using main.py. It includes information on installation, execution, and what each part of the project does.
 
 Generative AI RAG Chatbot with ChromaDB and Azure OpenAI
 
