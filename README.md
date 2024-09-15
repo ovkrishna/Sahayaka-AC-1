@@ -1,10 +1,10 @@
-Here's the info that reflects the current setup and provides clear instructions for anyone who wants to run your chatbot using main.py. It includes information on installation, execution, and what each part of the project does.
+**Generative AI RAG Chatbot with ChromaDB and Azure OpenAI**
 
-Generative AI RAG Chatbot with ChromaDB and Azure OpenAI
+Here's the info that reflects the current setup and provides clear instructions for anyone who wants to run your chatbot using main.py. It includes information on installation, execution, and what each part of the project does.
 
 This project implements a Retrieval-Augmented Generation (RAG) chatbot using ChromaDB for embedding storage and Azure OpenAI GPT for generating responses. The chatbot extracts information from PDFs, generates embeddings, stores them in ChromaDB, and retrieves relevant information to answer user queries.
 
-Project Structure
+**Project Structure**
 
 - main.py: The entry point for running the chatbot. It extracts text from a PDF, generates embeddings, stores them in ChromaDB, and provides answers to user queries using Azure OpenAI GPT.
 - chunking.py: Contains utilities for splitting text into chunks that fit within token limits and truncating context to ensure it's within the token limit for GPT.
@@ -15,7 +15,7 @@ Project Structure
 - chromadb_operations/search.py: Handles searching for the most relevant embeddings in ChromaDB based on the user query.
 - models/gpt_response.py: Generates a response using Azure OpenAI GPT based on the user query and the retrieved context.
 
-Setup Instructions
+**Setup Instructions**
 
 1. Clone the Repository
 Clone the GitHub repository to your local machine:
@@ -45,7 +45,7 @@ python main.py
 
 You’ll be prompted to enter a query. The chatbot will search the ChromaDB for relevant information and generate a response using Azure OpenAI GPT based on the context.
 
-Project Workflow
+**Project Workflow**
 
 1. PDF Extraction: The text from the provided PDF is extracted using the pdf_extractor.py module.
 2. Text Chunking: The extracted text is split into manageable chunks using the split_text_to_fit_token_limit function in chunking.py.
@@ -54,7 +54,7 @@ Project Workflow
 5. Query Handling: When a user enters a query, the chatbot searches for relevant chunks of text in ChromaDB using the search_query function.
 6. GPT Response: The retrieved context is passed to the Azure OpenAI GPT model, which generates a response to the user’s query.
 
-File Breakdown
+**File Breakdown**
 
 - main.py: 
   - Extracts text from the PDF.
@@ -78,7 +78,7 @@ File Breakdown
 - gpt_response.py: 
   - Sends the user query and retrieved context to Azure OpenAI GPT and generates a response.
 
-Example Usage
+**Example Usage**
 
 python main.py
 You’ll be prompted with:
@@ -92,11 +92,11 @@ The chatbot will return a response based on the extracted content from the PDF a
 
 
 
-Future Enhancements
+**Future Enhancements**
 
 - Flask Frontend: You can later extend this project with a Flask-based web interface to allow users to interact with the chatbot through a web browser.
 - Add More PDF Files: You can easily extend this setup to handle multiple PDFs and expand the knowledge base by modifying config.py and ChromaDB setup.
 
-Contributing
+**Contributing**
 
 Feel free to fork this repository, create issues, or submit pull requests if you find any bugs or want to contribute to the project!
