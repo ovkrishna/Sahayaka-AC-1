@@ -100,5 +100,3 @@ Future Enhancements
 Contributing
 
 Feel free to fork this repository, create issues, or submit pull requests if you find any bugs or want to contribute to the project!
-
-This README.md provides all the necessary information for running the chatbot locally, along with explanations of each component and instructions for setting up the project on another system.
