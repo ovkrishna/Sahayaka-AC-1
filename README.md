@@ -86,6 +86,12 @@ Enter your query:
 Type your question, such as: "What are decision trees?"
 The chatbot will return a response based on the extracted content from the PDF and additional information from GPT.
 
+<img width="724" alt="Screenshot 2024-09-14 184535" src="https://github.com/user-attachments/assets/fa490ec3-1fb8-4349-8feb-eb1e2dd908f3">
+
+<img width="721" alt="Screenshot 2024-09-14 184632" src="https://github.com/user-attachments/assets/b38a2447-d41b-4266-b6e3-55b84b3ff78e">
+
+
+
 Future Enhancements
 
 - Flask Frontend: You can later extend this project with a Flask-based web interface to allow users to interact with the chatbot through a web browser.
